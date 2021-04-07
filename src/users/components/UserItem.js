@@ -15,7 +15,7 @@ const UserItem = ({ user }) => {
           <div className="user-item__info">
             <h2>{user.name}</h2>
             <h3>
-              {user.places}
+              {user.places.length}
               {user.places < 2 ? " Place " : " places "}
             </h3>
           </div>
